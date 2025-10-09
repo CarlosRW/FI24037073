@@ -12,15 +12,15 @@ FI24037073
 ```bash
 FI24037073/
 │
-├── proyectos/
-│ ├── entregable-1/
-│ ├── entregable-2/
-│ └── entregable-3/
+├── PP1/
+│ ├── .gitignore/
+│ ├── Inverso.java/
+│ └── README.md/
 │
-├── tareas/
+├── PP2/
 │ ├── tarea-1/
 │ ├── tarea-2/
-│ └── tarea-3/
+│ └── README.md/
 │
 └── ejercicios/
   ├── ejercicio-1/│ 
