@@ -1,0 +1,6 @@
+com\carlosrw\revert\Revert.class
+com\carlosrw\revert\MyStackString.class
+com\carlosrw\revert\MyStackInteger.class
+com\carlosrw\revert\MyStackInterface.class
+com\carlosrw\revert\MyStackIntegerInterface.class
+com\carlosrw\revert\MyStackFloat.class
