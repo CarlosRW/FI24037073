@@ -18,12 +18,12 @@ FI24037073/
 │ └── README.md/
 │
 ├── PP2/
-│ ├── tarea-1/
-│ ├── tarea-2/
+│ ├── Revert/
+│ ├── .gitignore/
 │ └── README.md/
 │
-└── ejercicios/
-  ├── ejercicio-1/│ 
+└── PP3/
+  ├── PracticaProgramada3/│ 
   ├── ejercicio-2/
   └── ejercicio-3/
 ```
