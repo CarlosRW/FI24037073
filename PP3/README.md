@@ -2,15 +2,23 @@
 
 ## Información del Estudiante
 
-* **Nombre:** Carlos Eduardo Ramírez Wong
-* **Carné:** FI24037073
+| Curso | Estructuras de Datos |
+| :--- | :--- |
+| Estudiante | Carlos Eduardo Ramírez Wong |
+| Carné | F124037073 |
+| IDE/Editor Utilizado | Apache NetBeans 22 |
+| Versión de Java | Java SE 21 & JDK 21 |
 
 ---
 
-## Herramientas Utilizadas
+## Contexto y Repositorios
 
-* **IDE/Editor Utilizado:** NetBeans 22
-* **JDK/Versión de Java:** Java SE 21 & JDK 21
+Esta práctica fue desarrollada como parte del curso **SC-304 Estructuras de Datos** de la Universidad Fidélitas.
+
+| Referencia | Descripción | Enlace |
+| :---: | :---: | :---: |
+| **Repositorio del Curso** | Repositorio oficial del profesor con las instrucciones generales y material de referencia. | https://github.com/larmcr/2025-III-SC-304/tree/main/PP3 |
+| **Mi Solución** | Repositorio que contiene mi código fuente (`PP3/PracticaProgramada3`) y la solución final. | https://github.com/larmcr/2025-III-SC-304/tree/main/PP3 |
 
 ---
 
