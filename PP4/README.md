@@ -2,14 +2,15 @@
 
 ## Información del Estudiante
 
-| Campo | Valor |
-| :---: | :---: |
-| Nombre | Carlos Eduardo Ramírez Wong |
-| Carné | FI24037073 |
-| IDE/Editor Utilizado | [Apache NetBeans 22] |
+| Curso | Estructuras de Datos |
+| :--- | :--- |
+| Estudiante | Carlos Eduardo Ramírez Wong |
+| Carné | F124037073 |
+| IDE/Editor Utilizado | Apache NetBeans 22 |
 | Versión de Java | Java SE 21 & JDK 21 |
 
 ---
+
 ## Contexto y Repositorios
 
 Esta práctica fue desarrollada como parte del curso **SC-304 Estructuras de Datos** de la Universidad Fidélitas.
