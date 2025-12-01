@@ -15,10 +15,11 @@ public class CustomStack {
     public void push(String word) {
         var node = new StackNode(word);
 
-        // Push (Apilar): agregar al inicio de la lista (_head).
-        
+        // Actualizar
+        // Source: Gemini
+        // Push (Apilar): Se agrega el elemento al inicio de la lista (_head).
         // El nuevo nodo apunta al actual tope (head).
-        node.setNext(_head); 
+        node.setNext(_head);
         // El nuevo nodo se convierte en el tope (head).
         _head = node;
     }
@@ -26,33 +27,33 @@ public class CustomStack {
     public String pop() {
         String word = null;
 
-        // Pop (Desapilar): remover el nodo del inicio de la lista (_head).
-        
+        // Actualizar
+        // Source: Gemini
+        // Pop (Desapilar): Se remueve el nodo del inicio de la lista (_head).
         if (_head == null) {
             // Si la pila está vacía, retorna null.
-            return word; 
+            return word;
         }
-        
+
         // Almacena la palabra del nodo a desapilar.
         word = _head.getWord();
-        
-        // Actualiza la cabeza al siguiente nodo.
+
+        // Actualiza la cabeza al siguiente nodo, eliminando la referencia al nodo desapilado.
         _head = _head.getNext();
-        
+
         return word;
     }
 
     public int size() {
         var length = 0;
 
-        // Retorna el tamaño recorriendo la lista.
-        
+        // Retornar el tamaño recorriendo la lista
         StackNode current = _head;
         while (current != null) {
             length++;
             current = current.getNext();
         }
-        
+
         return length;
     }
 

@@ -18,25 +18,28 @@ public class CustomTree {
         _root = insert(_root, tf, word);
     }
 
-    private TreeNode insert(TreeNode node, double tf, String word) {
+ private TreeNode insert(TreeNode node, double tf, String word) {
 
-        // Implementación recursiva de inserción en Árbol Binario de Búsqueda (BST) basado en TF.
+        // Actualizar
+        // Source: Gemini
+        // Implementación recursiva para la inserción en el BST.
 
         if (node == null) {
-            // Caso base: si el nodo es nulo, creamos el nuevo nodo y le agregamos la palabra.
+            // Caso base: Si el nodo es nulo (llegamos al punto de inserción), 
+            // creamos el nuevo nodo y le agregamos la palabra.
             TreeNode newNode = new TreeNode(tf);
             newNode.addWord(word); 
             return newNode;
         }
 
         if (tf < node.getTf()) {
-            // Si el nuevo TF es menor, insertamos en el subárbol izquierdo.
+            // Si el nuevo TF es menor, insertamos en el subárbol izquierdo
             node.setLeft(insert(node.getLeft(), tf, word));
         } else if (tf > node.getTf()) {
-            // Si el nuevo TF es mayor, insertamos en el subárbol derecho.
+            // Si el nuevo TF es mayor, insertamos en el subárbol derecho
             node.setRight(insert(node.getRight(), tf, word));
         } else {
-            // Si el TF es igual, agregamos la palabra a la pila del nodo actual.
+            // Si el TF es igual, agregamos la palabra a la pila del nodo actual
             node.addWord(word);
         }
 
@@ -45,7 +48,7 @@ public class CustomTree {
 
     public String getInOrderTraversal() {
         // Este método realiza el recorrido In Order (Izquierda -> Raíz -> Derecha)
-        // para obtener los TFs en orden ascendente, tal como requiere el archivo tree.txt.
+        // para obtener los TFs en orden ascendente, tal como requiere el archivo tree.txt
         return getInOrderTraversal(_root);
     }
 
