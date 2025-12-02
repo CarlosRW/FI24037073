@@ -12,6 +12,16 @@ FI24037073
 ```bash
 FI24037073/
 │
+├── CP1/
+│ ├── Colas/
+│ ├── Pilas/
+│ ├── Recursividad/
+│ ├── .gitignore/
+│ └── README.md/
+├── CP2/
+│ ├── CasoPracticoDos/
+│ ├── .gitignore/
+│ └── README.md/
 ├── PP1/
 │ ├── .gitignore/
 │ ├── Inverso.java/
@@ -23,9 +33,15 @@ FI24037073/
 │ └── README.md/
 │
 └── PP3/
-  ├── PracticaProgramada3/│ 
-  ├── ejercicio-2/
-  └── ejercicio-3/
+│  ├── PracticaProgramada3/
+│  ├── ejercicio-2/
+│  └── ejercicio-3/
+├── PP4/
+│ ├── PracticaProgramada4
+│ ├── .gitignore/
+│ └── README.md/
+├── .gitignore/
+└── README.md/
 ```
 
 ---
